@@ -49,7 +49,7 @@
     tsp: 0.0049289216
   }
   const volumeCourseList = Object.keys(volumeCourse);
-
+  
   const areaCourse = {
     "m^2": 1,
     "km^2": 1000000,
@@ -80,6 +80,7 @@
     ["Area", areaCourse, areaCourseList],
     ["Speed", speedCourse, speedCourseList]
   ];
+  
 </script>
 
 {#each listOfCourses as c}
