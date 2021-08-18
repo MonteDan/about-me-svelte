@@ -2,6 +2,7 @@
   export let name;
   export let course;
   export let courseList;
+  export let baseOption;
   
   var precision;
   var baseCount;
@@ -12,6 +13,8 @@
   baseCount = ""
   outputField = ""
   precision = "2"
+  base = baseOption
+  wanted = baseOption
 
 
   const show = () => {
