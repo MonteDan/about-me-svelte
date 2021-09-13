@@ -1,1 +1,3 @@
-IN PROGRESS!
+VE VÝVOJI!
+
+Vytvořit nezabugovatelný konvertor jednotek pomocí komponentů        ✅
