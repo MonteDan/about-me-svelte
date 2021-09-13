@@ -6,7 +6,7 @@
   var ready = true
   var listOfCourses = []
   /*
-  fetch("http://api.exchangeratesapi.io/v1/latest?access_key=feb25f469fab24b9797780bc8727db57")
+  fetch("http://api.exchangeratesapi.io/v1/latest?access_key={apiKey}")
     .then(d => d.json())
     .then((d) => {
       const currencyCourse = d.rates;

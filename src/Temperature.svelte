@@ -9,15 +9,15 @@
 
   const show = () => {
     if (baseCount == "") {
-      outputField = ""
+      outputField = "";
     } else {
       outputField = ((baseCount*1.8)+32).toFixed(precision);
     }
     while ((outputField.includes(".") && outputField.toString().slice(-1) == "0") || (outputField.includes(".") && outputField.toString().slice(-1) == ".")) {
-      outputField = outputField.substring(0, outputField.length-1)
+      outputField = outputField.substring(0, outputField.length-1);
     }
     return;
-  }
+  };
   const show2 = () => {
     if (outputField == "") {
       baseCount = ""
@@ -25,14 +25,14 @@
       baseCount = ((outputField-32)/1.8).toFixed(precision);
     }
     while ((baseCount.includes(".") && baseCount.toString().slice(-1) == "0") || (baseCount.includes(".") && baseCount.toString().slice(-1) == ".")) {
-      baseCount = baseCount.substring(0, baseCount.length-1)
+      baseCount = baseCount.substring(0, baseCount.length-1);
     }
     return;
-  }
+  };
   const refresh = () => {
-    show()
+    show();
     return;
-  }
+  };
 </script>
 
 <div class="module">
